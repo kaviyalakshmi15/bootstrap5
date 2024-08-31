@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Bootstrap 5 Crash Course</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+
+<h1>Scroll spy</h1>
+    
+<div class="bd-example">
+  <div class="row">
+    <div class="col-4">
+      <nav id="navbar-example" class="navbar navbar-light bg-light flex-column">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" href="#item-1">Item 1</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ml-3 my-1" href="#item-1-1">Item 1-1</a>
+            <a class="nav-link ml-3 my-1" href="#item-1-2">Item 1-2</a>
+          </nav>
+          <a class="nav-link" href="#item-2">Item 2</a>
+          <a class="nav-link" href="#item-3">Item 3</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ml-3 my-1" href="#item-3-1">Item 3-1</a>
+            <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
+          </nav>
+        </nav>
+      </nav>
+    </div>
+    <div class="col-8">
+      <div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="scrollspy-example-2" style="height: 400px; overflow-y: scroll;">
+        <h4 id="item-1">Item 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti commodi magnam cum suscipit voluptates officiis eos, dolorem quam iure voluptas debitis, eligendi possimus repellendus impedit voluptatum, nam dolorum autem maiores nihil voluptate ab itaque ipsa! Ducimus, autem hic? Hic quam odio aut ipsa commodi ut distinctio excepturi fuga quia temporibus!</p>
+        <h5 id="item-1-1">Item 1-1</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quos, numquam quis commodi, tenetur libero tempore tempora, consectetur a autem cum est doloremque ex alias dolore impedit officia? Maiores eveniet provident, repellat, sed cumque quaerat iusto exercitationem deleniti sequi eligendi tempora fugit amet quasi tempore in reprehenderit quos fugiat. Iusto ipsam labore hic id praesentium laboriosam veritatis debitis quibusdam sit!</p>
+        <h5 id="item-1-2">Item 1-2</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam dignissimos consectetur velit facilis! Aperiam quasi provident deleniti vero. Aut eos, molestias magni obcaecati minus, velit ducimus deserunt reprehenderit exercitationem porro fuga suscipit quis eius id cumque nam neque non cupiditate, quaerat dolorem. Natus facere quasi accusamus animi, vel suscipit debitis at sequi pariatur voluptas laudantium rem obcaecati culpa doloremque nulla.</p>
+        <h4 id="item-2">Item 2</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi facere, praesentium, dicta fuga molestiae voluptatem quisquam laudantium consequuntur illum at rem, aut vero. Quis quae, ea exercitationem harum quisquam, hic saepe quod omnis doloremque sapiente, suscipit adipisci quos! Minus maxime, eum aperiam fugit beatae ipsa iure, soluta laborum tempore a provident magnam officia eveniet.</p>
+        <h4 id="item-3">Item 3</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatum voluptatibus, exercitationem incidunt voluptate hic, adipisci vero sequi repellat aliquid optio voluptatem, quis sint blanditiis dolorem. Quisquam explicabo similique, ullam, atque vel blanditiis provident ipsa voluptate eaque voluptas tempore reiciendis.</p>
+        <h5 id="item-3-1">Item 3-1</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil asperiores alias tenetur perferendis voluptates dolorem cumque animi similique saepe accusamus quibusdam rerum mollitia laudantium necessitatibus a, delectus voluptate eum deleniti qui vitae optio. Quas rerum, non nisi molestiae voluptate quae? Aut quam doloribus dolorem. Quia ducimus aspernatur incidunt iusto earum dolores eius cum neque dignissimos porro nihil sequi modi magni adipisci quasi reprehenderit, iste sit at ex animi minima.</p>
+        <h5 id="item-3-2">Item 3-2</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci repellendus asperiores sed id? Dolorum quae dicta numquam quas ipsam porro aut, quaerat vitae, voluptatibus non veritatis et at id fugiat distinctio aliquam voluptate eum quisquam mollitia molestiae iure nihil? Architecto natus eveniet qui molestiae modi provident repudiandae pariatur! Totam, id?</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
